@@ -1,30 +1,33 @@
 ---
 const {width, height} = Astro.props;
 const socialLinks = [
-	{
-		title: 'LinkedIn',
-		icon: 'simple-icons:linkedin',
-		href: 'https://www.linkedin.com/in/sofidev/',
+	// {
+	// 	title: 'LinkedIn',
+	// 	icon: 'simple-icons:linkedin',
+	// 	href: 'https://www.linkedin.com/in/sofidev/',
 
-	},
-	{
-		title: 'Instagram',
-		icon: 'mdi:instagram',
-		href: 'https://www.instagram.com/',
+	// },
+	// {
+	// 	title: 'Instagram',
+	// 	icon: 'mdi:instagram',
+	// 	href: 'https://www.instagram.com/shliapinalekseiofficial',
 
-	},
-	{
-		title: 'Tiwtter',
-		icon: 'ri:twitter-x-fill',
-		href: 'https://twitter.com/home',
-
-	},
-	{
-		title: 'CV',
-		icon: 'tabler:file-cv',
-		href: '../docs/cv_jhon_doe.pdf',
-
-	},
+	// },
+		{
+		title: 'Telegram',
+		icon: 'mdi:telegram',
+		href: 'https://t.me/abrek_fullstack',
+		},
+	// {
+	// 	title: 'Tiwtter',
+	// 	icon: 'ri:whatsup',
+	// 	href: 'https://twitter.com/home',
+	// },
+	// {
+	// 	title: 'CV',
+	// 	icon: 'tabler:file-cv',
+	// 	href: '../docs/cv_jhon_doe.pdf',
+	// },
 ];
 ---
 
@@ -37,7 +40,7 @@ const socialLinks = [
                 rel="nofollow noreferrer noopener"
             >
                 <iconify-icon
-					class=`skill__icon ${data.title}`
+										class=`skill__icon ${data.title}`
                     icon={data.icon}
                     width={width}
                     height={height}
