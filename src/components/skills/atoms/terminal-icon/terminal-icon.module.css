@@ -22,7 +22,7 @@
 	height: 1em;
 	background-color: currentColor;
 	-webkit-mask-image: var(--svg);
-	mask-image: var(--svg);
+	mask-image: none;
 	-webkit-mask-repeat: no-repeat;
 	mask-repeat: no-repeat;
 	-webkit-mask-size: 100% 100%;
