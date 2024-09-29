@@ -7,6 +7,7 @@
 }
 .base {
 	width: min-content;
+	color: var(--icon-color);
 }
 .icon {
 	font-size: 7rem;
