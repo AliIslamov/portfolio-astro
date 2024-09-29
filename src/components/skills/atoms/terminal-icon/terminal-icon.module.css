@@ -7,7 +7,6 @@
 }
 .base {
 	width: min-content;
-	color: var(--icon-color);
 }
 .icon {
 	font-size: 7rem;
@@ -20,6 +19,7 @@
 	display: inline-block;
 	width: 1em;
 	height: 1em;
+	background-color: currentColor;
 	-webkit-mask-image: var(--svg);
 	mask-image: var(--svg);
 	-webkit-mask-repeat: no-repeat;
