@@ -4,32 +4,42 @@ import Terminal from '../terminal/Terminal.astro';
 import './skills-on-terminal.css';
 ---
 
-<Terminal nombre="jhonDoe">
+<Terminal nombre="Aleksei">
 	<div class="terminal__skills">
 		<h2>Мой стэк:</h2>
 		<div class="terminal__skills__container">
 			<TerminalIcon
 				src="/assets/react.svg"
-				color="#7738ff"
+				color="#01BDD6"
 				name="React"
 			/>
 			<TerminalIcon
 				src="/assets/typescript.svg"
-				color="#FF4747"
-				name="Typescript"
+				color="#3077C6"
+				name="TypeScript"
+			/>
+			<TerminalIcon src="/assets/javascript.svg" color="#FFE70B" name="JavaScript" />
+			<TerminalIcon src="/assets/jest.svg" color="#16DF16" name="Jest" />
+			<TerminalIcon
+				src="/assets/html.svg"
+				color="#015A9C"
+				name="HTML"
+			/>
+			<TerminalIcon
+				src="/assets/css.svg"
+				color="#319C40"
+				name="CSS"
+			/>
+			<TerminalIcon
+				src="/assets/sass.svg"
+				color="#BF4080"
+				name="SASS"
 			/>
 			<TerminalIcon
 				src="/assets/nodejs.svg"
-				color="#00D1FF"
+				color="#407E37"
 				name="NodeJS"
 			/>
-			<TerminalIcon src="/assets/javascript.svg" color="#00A3FF" name="JavaScript" />
-			<TerminalIcon src="/assets/jest.svg" color="#F3CBC2" name="Jest" />
-			<!-- <TerminalIcon
-				src="/assets/electron.svg"
-				color="#3F75FF"
-				name="Electron"
-			/> -->
 		</div>
 	</div>
 </Terminal>
